@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SBI Bank</title>
+    <style>
+        #logo {
+            width: 128px;
+            height: 92px;
+            border: 2px solid black;
+        }
+
+        .heading {
+            display: inline-block;
+            position: absolute;
+            margin-left: 406px;
+            font-size: 18px;
+        }
+
+        table {
+            margin-right: 50px;
+            float: right;
+            margin-top: 100px;
+            font-size: 19px;
+            margin-right: 88px;
+        }
+
+        th {
+            padding: 10px;
+        }
+
+        h2 {
+            top: 184px;
+            position: absolute;
+            margin-left: 666px;
+        }
+
+        form {
+            display: inline-block;
+
+            top: 275px;
+            margin-left: 500px;
+            position: absolute;
+        }
+        button{
+            margin-top: 20px;
+
+        }
+        #sub{
+            margin-left: 32px;
+        }
+        #res{
+            margin-left: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <img id="logo" src="https://www.wordzz.com/wp-content/uploads/2016/10/sbi.jpg" alt="Image not found">
+    <span class="heading">
+        <h1>STATE BANK OF INDIA</h1>
+    </span>
+    <table>
+        <tr>
+            <th>
+                Dashboard
+            </th>
+            <th>
+                |
+            </th>
+            <th>
+                Open A/C
+            </th>
+            <th>
+                |
+            </th>
+            <th>
+                LOAN
+            </th>
+            <th>
+                |
+            </th>
+            <th>
+                Deposit
+            </th>
+        </tr>
+    </table>
+    <h2>Account Opening</h2>
+    <form action="saving_account.php" method="post">
+        <label for="name">Customer name:</label>
+        <input type="text" name="name" /><br />
+        <label for="address">Address:
+            <textarea rows="2" cols="20" name="address"></textarea><br/>
+            <label for="city"> City:</label>
+            <input type="text" name="city" /><br />
+            <button type="submit" value="submit" id="sub">Submit</button>
+            <button type="reset" value="submit" id="res">Reset</button>
+    </form>
+</body>
+
+</html>
